@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 150px
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 16px;
+  width: 310px;
+  min-width: fit-content;
+}
+
+.flexed-buttons {
+  width: 100%;
+  display: grid;
+  flex-direction: 1fr;
+  row-gap: 12px;
+  margin-top: 8px;
+}
+
+.user-photo {
+  width: 75px;
+  border-radius: 50px;
+
+}
+
+.user-name {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.user-address {
+  font-size: 14px;
+  margin-top: 10px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+}
+
+.user-description {
+  font-size: 14px;
+  color: hsl(0, 0%, 92%);
+  white-space: nowrap;
+
+
+
+}
+
+button {
+  padding: 12px;
+  font-weight: 800;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:active,
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%)
+}
